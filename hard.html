@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+   <link rel="stylesheet" href="style.css" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+   <title>Retro Rampage</title>
+   <style>
+      body h2{
+         text-align: center;
+      }
+   </style>
+
+</head>
+
+
+<body>
+   <section>
+   <h1>Retro Rampage</h1>
+   <h2>Hard Difficulty</h2>
+   <div class="gamecont">
+     <canvas class="GameWindow"></canvas>
+   </div>
+   <div id="game-over">
+      <h1>Game Over</h1>
+      <p id="final-score">Final Score:</p>
+      <p id="high-score">High Score:</p> 
+      <button id="restart-button">Restart</button>
+      <button id="main-button">
+         <a href="index.html">Main Menu</a>
+      </button>
+  </div>
+   </section>
+   <div>
+      <h3>Controls:</h3>
+      <p>WASD or Arrow Keys to Accelerate,Brake and Turn Left and Right</p>
+      <h3>Power Up Info</h3>
+      <p>Coins Give +10 Points</p>
+      <p>Shields Give 15 Seconds of Invincibility</p>
+      <p>Double Points, Double the players current points</p>
+   </div>
+
+</body>
+
+
+
+<script src="hard.js"></script>
+
+</html>

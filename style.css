@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Press Start 2P');
+
+*{
+    font-family: 'Press Start 2P';
+}
+
+.GameWindow{
+    border-radius: 20px;
+}
+
+.gamecont{
+    text-align: center;
+}
+
+section{
+    min-height: 50vh;
+}
+
+#game-over {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#game-over h1 {
+    color: white;
+    font-size: 36px;
+}
+
+#restart-button {
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+#restart-button:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 8px 12px 0 rgba(15, 8, 8, 0.859)
+}
+
+#main-button {
+    padding: 10px 20px;
+    margin-top: 25px;
+    font-size: 24px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+#main-button a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#main-button:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 8px 12px 0 rgba(15, 8, 8, 0.859)
+}
+
+
+#final-score {
+    color: white;
+    font-size: 25px;
+}
+
+#high-score {
+    color: white;
+    font-size: 25px;
+}
+
+
+#easy{
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+#easy a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+#medium{
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+#medium a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+#hard{
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+#hard a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+#difficulty-options{
+    text-align: center;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+
